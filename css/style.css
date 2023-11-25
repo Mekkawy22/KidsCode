@@ -277,10 +277,10 @@ body {
     margin-left: 30px;
 }
 
-.star-shape:hover .box-fun, .star-shape:hover .title {
+.star-shape:hover .box-fun,
+.star-shape:hover .title {
     transform: scale(1.1);
 }
-
 /* Contact */
 .sectionn {
     padding: 1px 0;
