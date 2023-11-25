@@ -18,47 +18,56 @@
 
 <!-- Header Section -->
 <header class="header">
-   <!-- Top Header -->
-   <div class="">
-    <div class="row align-items-center top-header bg-primary">
-        <div class="col-md-6 col-sm-6 text-center" style="display: inline-table;">
-            <div class="top-icon info-item">
-                <i class="fas fa-phone"></i>
-                <div class="info-item">+62 7144 3300</div>
+    <!-- Top Header -->
+    <div class="top-header bg-primary">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-sm-6 text-center">
+                    <div class="top-icon info-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="info-item">+62 7144 3300</div>
+                    </div>
+                    <div class="top-icon info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info-item"><a href="mailto:support@kids.com">support@kids.com</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 text-center">
+                    <div class="row sosmed-icon justify-content-center">
+                        <a href="#" class="fb"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="tw"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="ig"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="in"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="top-icon info-item">
-                <i class="fas fa-envelope"></i>
-                <div class="info-item"><a href="mailto:support@kids.com" >support@kids.com</a></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">KidsCode</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item "><a class="nav-link" href="/index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="courses.html">COURSES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Teachers.html">TEACHER</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="contact us .html">CONTACT US</a></li>
+                </ul>
+                <button class="btn btn-outline-primary login-btn" type="button">
+                    <a href="login.html" style="text-decoration: none;">LOGIN</a>
+                </button>
+                <button class="btn btn-primary signup-btn" type="button">
+                    <a href="Sign Up.html" class="text-white" style="text-decoration: none;">SIGN UP</a>
+                </button>
             </div>
         </div>
-        <div class="col-md-6 col-sm-6 text-center">
-            <div class="row sosmed-icon justify-content-center">
-                <a href="#" class="fb"><i class="fab fa-facebook"></i></a>
-                <a href="#" class="tw"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="ig"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="in"><i class="fab fa-linkedin"></i></a>
-            </div>
-        </div>
-    </div>
-</div>
-   <!-- Navigation -->
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand logo" href="#">KidsCode</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto">
-            <li class="nav-item"><a class="nav-link" href="/index.html">HOME</a></li>
-            <li class="nav-item"><a class="nav-link" href="courses.html">COURSES</a></li>
-            <li class="nav-item "><a class="nav-link" href="Teachers.html">TEACHER</a></li>
-            <li class="nav-item active"><a class="nav-link" href="contact us .html">CONTACT US</a></li>
-        </ul>
-        <button  class="btn btn-outline-primary login-btn" type="button"><a href="login.html" style="text-decoration: none; ">LOGIN</a></button>
-            <button class="btn btn-primary signup-btn" type="button"><a href="Sign Up.html" class="text-white " style="text-decoration: none;">SIGN UP</a></button>
-    </div>
-</nav>
+    </nav>
 </header>
+
 <!-- Banner Section -->
 <div class="section banner-page " style="background-image: url('/img/bg_1.jpg');">
     <div class="content-wrap pos-relative">
@@ -80,7 +89,7 @@
 <section class="login-body">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-6 align-self-center">
+            <div class=" col-sm-12 col-md-6  align-self-center">
                 <div class="login-container ">
                     <div class="login-label text-center">
                         <h3>Contact Us</h3>
@@ -181,7 +190,7 @@
                             <ul class="list">
                                 <li><a href="/index.html" title="About us">Home</a></li>
                                 <li><a href="teachers.html" title="Our Teacher">Our Teacher</a></li>
-                                <li><a href="classes.html" title="Our Classes">Our Classes</a></li>
+                                <li><a href="courses.html" title="Our Classes">Our Courses</a></li>
                                 <li><a href="contact us .html" title="Contact Us">Contact Us</a></li>
                             </ul>
                         </div>
@@ -208,11 +217,13 @@
     </div>
     <!-- Copyright -->
     <div class="row align-items-center top-header bg-primary" style="height: 40px;">
-        <div class="col-md-12 col-sm-12 text-center">
-            <div class="top-icon justify-content-center ">
-                <p class="text-white">Copyright 2023 © KidsCode</p>
+        <div class="col-12 text-center">
+            <div class="top-icon d-flex justify-content-center">
+                <p class="text-white mb-0">Copyright 2023 © KidsCode</p>
             </div>
+        </div>
     </div>
+    
 </footer>
 
 <!-- Bootstrap JS and Popper.js (required for Bootstrap) -->
